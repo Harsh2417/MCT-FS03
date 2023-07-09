@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+## User Profile App
+This is a React application that displays profiles of 10 users fetched from an API. Each user profile contains avatar picture, name, email, phone, address, website, and company name. The application allows you to like/favorite a user, edit their profile information, and delete a user.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ 
+## Features:-
+- Fetches user data from an API endpoint
+- Displays user profiles in a grid layout
+- Displays avatar pictures generated using the user's username
+- Like/favorite a user by clicking the heart button
+- Edit a user's profile information through a modal window
+- Delete a user's profile with confirmation popup
+- Uses the `react-toastify` library to show notifications
 
-## Available Scripts
+## Technologies Used:-
+- React
+- Axios
+- `react-toastify`
+- CSS
+## Installation:-
+1. Clone the repository: `git clone https://github.com/your-username/user-profile-app.git`
+2. Navigate to the project directory: `cd user-profile-app`
+3. Install dependencies: `npm install`
 
-In the project directory, you can run:
+## Usage:-
+1. Start the development server: `npm start`
+2. Open your browser and navigate to `http://localhost:3000`
 
-### `npm start`
+## API Endpoint:-
+The application fetches user data from the following API endpoint:
+ API Endpoint: `https://jsonplaceholder.typicode.com/users`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Acknowledgements:-
+Avatar pictures are generated using the [DiceBear Avatars API] (https://avatars.dicebear.com/).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License:-
+This project is licensed under the MIT License. See the [LICENSE] (LICENSE) file for details.
